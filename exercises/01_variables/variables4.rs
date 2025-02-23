@@ -1,8 +1,8 @@
 // TODO: Fix the compiler error.
 fn main() {
-    let x = 3;
-    println!("Number {x}");
+    let mut x: i32 = 3;
+    println!("Number {x}", x=x);
 
     x = 5; // Don't change this line
-    println!("Number {x}");
+    println!("Number {x}", x=x);
 }
